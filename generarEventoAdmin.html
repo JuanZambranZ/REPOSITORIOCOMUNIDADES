@@ -17,49 +17,88 @@
 
 </head>
 <body>
-    <header class="bg-success">
 
+    <!--ENCABEZADO-->
+    <header class="btn-success btn-lg disabled bg-success green text-md-center">
+        <label> GENERAR INVITACIONES </label>
     </header>
-    <label class="bg-success btn btn-success disabled"> GENERAR INVITACIONES </label>
 
-    <form>
-      <div class="form-group row">
+    <!--FORMULARIO EVENTOS-->
+    <form class="mr-5 ml-5 pr-5 pl-5 pl-5 mt-5">
+
+      <!--TIPO DE EVENTO-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label class="col-sm-2 col-form-label">TIPO DE EVENTO</label>
-        <div class="col-sm-10">
-          <input class="form-control">
+        <div class="input-group mb-3 col-sm-10">
+            <label class="w-50">
+                <select class="custom-select text-md-center">
+                        <option selected>ESCOGER...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                </select>
+            </label>
         </div>
       </div>
-      <div class="form-group row">
+
+      <!--NOMBRE DEL EVENTO-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label for="inputPassword" class="col-sm-2 col-form-label">NOMBRE DEL EVENTO</label>
         <div class="col-sm-10">
-          <input class="form-control">
+            <label class="w-50">
+               <input class="form-control">
+            </label>
         </div>
       </div>
-      <div class="form-group row">
+
+      <!--LUGAR-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label for="inputPassword" class="col-sm-2 col-form-label">LUGAR</label>
          <div class="col-sm-10">
-            <input class="form-control">
+            <label class="w-50">
+                <input class="form-control">
+            </label>
          </div>
       </div>
-      <div class="form-group row">
+
+      <!--FECHA (FALTA IMPLEMETAR SCRIP PARA CALENDARIO)-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label for="inputPassword" class="col-sm-2 col-form-label">FECHA</label>
         <div class="col-sm-10">
-            <input class="form-control">
+            <label class="w-50">
+                <input class="form-control">
+            </label>
+
         </div>
       </div>
-      <div class="form-group row">
+
+      <!--HORA-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label for="inputPassword" class="col-sm-2 col-form-label">HORA</label>
         <div class="col-sm-10">
-            <input class="form-control">
+            <label class="w-50">
+                 <input class="form-control">
+            </label>
         </div>
       </div>
-      <div class="form-group row">
+
+      <!--RESERVACIONES-->
+      <div class="form-group row mr-5 ml-5 pr-5 pl-5">
         <label for="inputPassword" class="col-sm-2 col-form-label">RESERVACIONES PARA</label>
         <div class="col-sm-10">
-            <input class="form-control">
+            <label class="w-50">
+                <input class="form-control">
+            </label>
         </div>
       </div>
     </form>
+
+    <!--BOTON PUBLICAR-->
+    <div class="text-md-center">
+        <button class="btn btn-success bg-success">
+            PUBLICAR
+        </button>
+    </div>
 
 
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -69,5 +108,6 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
 </body>
 </html>
