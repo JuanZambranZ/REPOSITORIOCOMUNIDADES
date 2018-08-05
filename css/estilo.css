@@ -1,0 +1,281 @@
+.menuCSS3 ul {
+    display: flex;
+    padding:0;
+    margin:0;
+    list-style: none;
+    border-radius: 25px;
+
+}
+
+.menuCSS3{
+
+
+}
+.menuCSS3 a {
+    display:block;
+    padding: 25px;
+
+    text-decoration: none;
+    color: #191C26;
+    border-radius: 25px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.menuCSS3 a:hover {
+    background-color: papayawhip;
+    transition: all  500ms;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display:flex;
+}
+
+
+.text1 :hover{
+    transform: translateX(0px);
+    transition: all 100ms;
+}
+
+
+
+.boton {
+    font-size: 10px;
+    padding: 5px;
+    color: cyan;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: red;
+    border-radius: 5px;
+}
+.boton {
+    color: red;
+
+}
+.content-menu .boton:hover{
+    transform: translateY(5px);
+    background: cyan  ;
+    border-radius: 10px;
+}
+.boton1 {
+    font-size: 10px;
+    padding: 5px;
+    color: blue;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: blue;
+    border-radius: 5px;
+}
+.boton1 {
+    color: blue;
+
+}
+.content-menu .boton1:hover{
+    transform: translateY(5px);
+    background: blue  ;
+    border-radius: 10px;
+}
+
+.boton2 {
+    font-size: 10px;
+    padding: 5px;
+    color: pink;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: pink;
+    border-radius: 5px;
+}
+.boton2 {
+    color: pink;
+
+}
+.content-menu .boton2:hover{
+    transform: translateY(5px);
+    background: pink  ;
+    border-radius: 10px;
+}
+
+.boton3 {
+    font-size: 10px;
+    padding: 5px;
+    color: black;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: black;
+    border-radius: 5px;
+}
+.boton3 {
+    color: black;
+
+}
+.content-menu .boton3:hover{
+    transform: translateY(5px);
+    background: black  ;
+    border-radius: 10px;
+}
+
+.boton4 {
+    font-size: 10px;
+    padding: 5px;
+    color: gray;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: gray;
+    border-radius: 5px;
+}
+.boton4 {
+    color: gray;
+
+}
+.content-menu .boton4:hover{
+    transform: translateY(5px);
+    background: gray  ;
+    border-radius: 10px;
+}
+
+.boton5 {
+    font-size: 10px;
+    padding: 5px;
+    color: green;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: green;
+    border-radius: 5px;
+}
+.boton5 {
+    color: green;
+
+}
+.content-menu .boton5:hover{
+    transform: translateY(5px);
+    background: green  ;
+    border-radius: 10px;
+}
+
+.boton6 {
+    font-size: 10px;
+    padding: 5px;
+    color: purple;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: purple;
+    border-radius: 5px;
+}
+.boton6 {
+    color: purple;
+
+}
+.content-menu .boton6:hover{
+    transform: translateY(5px);
+    background: purple  ;
+    border-radius: 10px;
+}
+
+.boton7 {
+    font-size: 10px;
+    padding: 5px;
+    color: orange;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: orange;
+    border-radius: 5px;
+}
+.boton7 {
+    color: orange;
+
+}
+.content-menu .boton7:hover{
+    transform: translateY(5px);
+    background: orange  ;
+    border-radius: 10px;
+}
+
+.boton8 {
+    font-size: 10px;
+    padding: 5px;
+    color: yellow;
+    transition: all 900ms;
+    cursor: pointer;
+    position: center;
+    top: 0px;
+    left: 0px;
+    background: yellow;
+    border-radius: 5px;
+}
+.boton8 {
+    color: yellow;
+
+}
+.content-menu .boton8:hover{
+    transform: translateY(5px);
+    background: yellow  ;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+
+
+header span{
+    font-size: 30px;
+    padding: 10px;
+    color: maroon;
+    transition: all 300ms;
+    cursor: pointer;
+    position: relative;
+
+    background: darkgray;
+    border-radius: 25px;
+}
+
+
+header span:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+

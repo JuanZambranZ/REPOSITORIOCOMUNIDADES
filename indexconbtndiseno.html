@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+
+    <script type="text/javascript">
+        function fondo(color) {
+            document.bgColor= color;
+        }
+    </script>
+
+    <script language="JavaScript">
+        function CambioTexto(){
+            var e=document.getElementsByTagName("p");
+            var x=document.getElementById("valor");
+            for (var i = 0; i < e.length; i++){
+                if (x.options[x.selectedIndex].text=="elige"){return false}
+                e[i].style.fontSize=x.options[x.selectedIndex].text+"px";
+                e[i].style.fontFamily="Arial Black";
+                e[i].style.color="#0A7BDF";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>COMUNIDADES FACCI</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<header>
+
+
+    <main>
+
+        <div class="menuCSS3">
+            <ul>
+
+                <li><a><span class="lnr lnr-pencil show"></span></a>
+                    <ul>
+                        <li><a class="text1"><span class="lnr lnr-lighter icon1"></span></a>
+
+                            <ul>
+
+                                <li>
+                                    <a>
+                                        <input   class="boton" type="button" value="Rojo"
+                                                 onclick="fondo('red')">
+                                    </a>
+                                </li>
+
+
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton1" type="button" value=" Azul"
+                                               onclick="fondo('blue')">
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a>
+                                        <input class="boton2" type="button" value=" Rosa"
+                                               onclick="fondo('pink')">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton3" type="button" value="Negro"
+                                               onclick="fondo('Black')"></a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton4" type="button" value="Gris"
+                                               onclick="fondo('gray')"></a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton5" type="button" value="Verde"
+                                               onclick="fondo('green')"></a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton6" type="button" value="Morado"
+                                               onclick="fondo('purple')"></a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton7" type="button" value="Naranja"
+                                               onclick="fondo('orange')"></a>
+                                </li>
+
+                                <li>
+                                    <a>
+                                        <input class="boton8" type="button" value="Amarillo"
+                                               onclick="fondo('yellow')"></a>
+                                </li>
+
+
+
+
+                            </ul>
+
+                        <li><a class="text2"><span class="lnr lnr-text-size icon2"></span></a>
+                            <ul>
+
+
+
+                                <li><a>
+                                    Selecciona un tamaño de letra:
+                                    <select id="valor" onchange="CambioTexto()">
+                                        <option>elige</option>
+                                        <option>10</option>
+                                        <option>15</option>
+                                        <option>20</option>
+                                        <option>25</option>
+                                        <option>30</option>
+                                        <option>35</option>
+                                        <option>40</option>
+                                    </select>
+
+                                    <a href="javascript:{var S=document.createElement('style');S.type = 'text/css';
+S.appendChild(document.createTextNode('h1{font-size:16px;color:blue;}
+body{color:red;font-size:20px;}'));document.body.appendChild(S);};
+void 0">texto en rojo</a>
+
+                                    <a href="javascript:void(document.body.style.fontSize='40px')">Aumenta el tamaño de toda la página</a>
+
+                                    <a href="javascript:void(document.body.style.fontSize='16px')">Tamaño normal</a>
+
+                                </a></li>
+
+                                <li><a>
+
+
+
+
+                                </a></li>
+
+
+
+
+
+
+                            </ul>
+
+
+
+
+                    </ul>
+                </li>
+
+
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <center>
+        <p></p>
+
+        <div>
+            <p></p>
+        </div>
+
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Start your project here-->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light green">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  LENGUAJE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">SERVICIOS</a>
+              </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="BUSCAR" aria-label="Search">
+              <button class="btn btn-   success my-2 my-sm-0 " type="submit">BUSCAR</button>
+            </form>
+ <!--BOTON LOGIN-->
+            <div class="dropleft">
+              <button id="dropdownMenuButton" class="dropdown-toggle btn btn- success my-2 my-sm-0 " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="20px" src="https://image.flaticon.com/icons/svg/69/69891.svg">
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                 <form class="px-4 py-3">
+                    <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                                     Recordarme
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                               <a class="dropdown-item" href="#">¿Eres nuevo aquí? Regístrate</a>
+                               <a class="dropdown-item" href="#">¿Se te olvidó tu contraseña?</a>
+                        </div>
+             </div>
+
+    </header>
+
+    <!--SLIDE-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="rounded mx-auto d-block max-width: 100% h-auto" src="img/facci.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="rounded mx-auto d-block max-width: 100% h-auto" src="img/facci.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="rounded mx-auto d-block max-width: 100% h-auto" src="img/facci.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <!--MENU COMUNIDADES-->
+    <div>
+        <h1>COMUNIDADES</h1>
+        <div class="row" >
+            <nav class="col-md-3">
+                     <ul class="list-group">
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">VES PRODUCTION</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">ROBÓTICA</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">MICROSOFT</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">IEEE</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">SOFTWARE LIBRE</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">DISEÑO GRÁFICO</button></li>
+                         <li class="list-group-item"><button type="button" class="btn btn-success btn-lg btn-block">MOBILE MONKEYS</button></li>
+
+
+                     </ul>
+                </nav>
+
+            <div class="col-md-9">
+                <div>
+                    <h2 class="text-center"><p>OTRAS OPCIONES</p></h2>
+                </div>
+                    <div>
+                        <div class="float-left mr-5 ml-5 pr-5 pl-5 mt-5 pt-5">
+                            <button>
+                                <img src="https://image.flaticon.com/icons/svg/66/66423.svg" width="130">
+                                <p>COORDINADORES</p>
+                            </button>
+                        </div>
+
+                        <div class="float-left mr-5 ml-5 pr-5 pl-5 mt-5 pt-5">
+                            <button>
+                                <img src="https://image.flaticon.com/icons/svg/66/66520.svg" width="130">
+                                <p>INFORMACIÓN</p>
+                            </button>
+                        </div>
+
+                        <div class="float-left ml-5 pl-5 mt-5 pt-5">
+                            <button>
+                                <img src="https://image.flaticon.com/icons/svg/66/66403.svg" width="130">
+                                <p>PRÓXIMAS ACTIVIDADES</p>
+                            </button>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="page-footer font-small green">
+        <div class="footer-copyright text-center py-3">© Copyright 2018: <br> COMUNIDADES FACCI
+        </div>
+    </footer>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+    <script type="text/javascript">
+        function fondo(color) {
+            document.bgColor= color;
+        }
+    </script>
+
+</body>
+
+</html>
