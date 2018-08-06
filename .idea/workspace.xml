@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="321c8267-641d-4f0c-9042-e87fc30a9d4f" name="Default" comment="implementacion favoritos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexs/indexconbtndiseno.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexs/indexconbtndiseno.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,15 +89,42 @@
         </counts>
       </usages-collector>
     </session>
+<<<<<<< Updated upstream
     <session id="-1017643600">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="195" />
           <entry key="txt" value="25" />
+=======
+    <session id="2051890520">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="151" />
+          <entry key="html" value="52" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< Updated upstream
           <entry key="HTML" value="195" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
@@ -113,15 +141,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-584">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+=======
+          <entry key="CSS" value="151" />
+          <entry key="HTML" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indexs/indexconbtndiseno.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="76" column="83" lean-forward="true" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
+=======
+        <entry file="file://$PROJECT_DIR$/css/estilo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -155,6 +206,8 @@
         <option value="$PROJECT_DIR$/asistirEventoUsuario.html" />
         <option value="$PROJECT_DIR$/indexs/asistirEventoUsuario.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/indexs/indexconbtndiseno.html" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
       </list>
     </option>
   </component>
@@ -165,10 +218,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="633" />
+    <option name="width" value="654" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,10 +233,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="REPOSITORIOCOMUNIDADES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="REPOSITORIOCOMUNIDADES" type="462c0819:PsiDirectoryNode" />
+              <item name="jerry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+              <item name="jerry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerry" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+<<<<<<< Updated upstream
               <item name="REPOSITORIOCOMUNIDADES" type="b2602c69:ProjectViewProjectNode" />
               <item name="REPOSITORIOCOMUNIDADES" type="462c0819:PsiDirectoryNode" />
               <item name="icon" type="462c0819:PsiDirectoryNode" />
@@ -205,6 +263,11 @@
               <item name="REPOSITORIOCOMUNIDADES" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="lightbox" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="jerry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jerry" type="462c0819:PsiDirectoryNode" />
+              <item name="indexs" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
@@ -218,6 +281,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+<<<<<<< Updated upstream
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\INTEL\Desktop\REPOSITORIOCOMUNIDADES\indexs" />
@@ -1034,6 +1098,8 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -1079,6 +1145,7 @@
       <workItem from="1533362281382" duration="2082000" />
       <workItem from="1533391718698" duration="10309000" />
       <workItem from="1533497897035" duration="10554000" />
+      <workItem from="1533514545563" duration="7908000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego para de navegacion">
       <created>1532928752627</created>
@@ -1154,6 +1221,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="59290000" />
   </component>
   <component name="ToolWindowManager">
@@ -1161,6 +1229,15 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+=======
+    <option name="totallyTimeSpent" value="63406000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24960254" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1236,6 +1313,7 @@
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/css/estilo.css" />
     <entry file="file://$PROJECT_DIR$/css/mdb.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1251,17 +1329,13 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/indexfavoritos.html" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30345">
           <caret line="1785" column="31" selection-start-line="1785" selection-start-column="31" selection-end-line="1785" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1275,6 +1349,7 @@
     <entry file="file://$PROJECT_DIR$/generarEventoAdmin.html" />
     <entry file="file://$PROJECT_DIR$/asistirEventoUsuario.html" />
     <entry file="file://$PROJECT_DIR$/indexconbtndiseno.html" />
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/indexs/asistirEventoUsuario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1189">
@@ -1286,13 +1361,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-584">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="602" selection-start-line="602" selection-end-line="602" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexs/indexfavoritos.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexs/asistirEventoUsuario.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexs/indexconbtndiseno.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="68">
           <caret line="76" column="83" lean-forward="true" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
+=======
+        <state relative-caret-position="476">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
